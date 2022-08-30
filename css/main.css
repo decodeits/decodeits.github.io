@@ -585,6 +585,11 @@
     overflow: hidden;
     position: relative;
    }
+    
+     #hero-area .banner{
+    pointer-events: none;
+
+  }
   }
    
    
