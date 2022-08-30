@@ -1409,6 +1409,21 @@ background-size: cover;
           opacity: 0.5;  
           box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.5);
         } 
+  
+  
+     
+     #industries .table:hover {
+       box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+     }
+     
+     #industries .table:hover .icon-box {
+       background: #0F172B;
+     }
+     
+     #industries .table:hover .icon-box .svg-inline--fa {
+       color: #F1F8FF;
+     }
+     
         
       }
     /*==========================industries cards ends===========================*/
@@ -1521,19 +1536,6 @@ background-size: cover;
      }
      
     
-     
-     #industries .table:hover {
-       box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
-     }
-     
-     #industries .table:hover .icon-box {
-       background: #0F172B;
-     }
-     
-     #industries .table:hover .icon-box .svg-inline--fa {
-       color: #F1F8FF;
-     }
-     
      #industries .svg-inline--fa {
        padding-top: 19px;
      }
