@@ -30,9 +30,25 @@
   }
 }
 
+@media (min-width: 588px) and (max-width: 767px) {
+  .FeatureImg{
+    width: 27em;
+    margin-left: 4em;
+    margin-right: 6em;
+  }
+}
+
+@media (min-width: 419px) and (max-width: 474px) {
+  .FeatureImg{
+    width: 27em;
+    margin-left: 1em;
+    margin-right: 6em;
+  }
+}
 
 
-@media (min-width: 530px) and (max-width: 767px) {
+
+@media (min-width: 530px) and (max-width: 587px) {
 .FeatureImg{
   width: 27em;
   margin-left: 6em;
@@ -41,11 +57,12 @@
 }
 
 
-@media (min-width: 419px) and (max-width: 529px) {
+@media (min-width: 475px) and (max-width: 529px) {
   .FeatureImg{
-    width: 20em;
-    margin-left: 6em;
+    width: 24em;
+    margin-left: 5em;
     margin-right: 4em;
+  
   }
 
 
