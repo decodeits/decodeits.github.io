@@ -575,10 +575,15 @@
    }
    
 
-   @media (max-width: 768px){
+  @media (max-width: 768px){
 
     #hero-area {
+    display: -ms-flexbox;
     background: url(../img/Common/RPA\ BG\ MOB.png) fixed no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
    }
   }
    
